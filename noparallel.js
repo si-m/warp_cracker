@@ -6,8 +6,12 @@ import pbkdf2   					from 'pbkdf2'
 import fs 								from 'fs'
 import {op_xor}   				from './lib/helpers'
 import {randomPassphrase} from './lib/helpers'
-import parallel from 'async/parallel';
-
+import generator          from'generate-password'
+ 
+var password = generator.generate({
+    length: 8,
+    numbers: true
+});
 exports.crack = () => {
 	let interation = 0
 	let key = {publicAddress: 0}
@@ -16,7 +20,8 @@ exports.crack = () => {
 	console.log('Starting...')
 
 	while(target_pub !== key.publicAddress){
-		passphrase = randomPassphrase()
+		// passphrase = randomPassphrase()
+		passphrase = generator.generate({length: 8, numbers: true})
 		console.log('Try number: ', interation)
 		console.log('passphrase: ', passphrase.toString('hex'))
 

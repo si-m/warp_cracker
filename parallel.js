@@ -1,12 +1,12 @@
-import CoinKey from 'coinkey'
-import scrypt from 'scrypt'
-import buffer from 'buffer'
-import binascii from 'binascii'
-import pbkdf2 from 'pbkdf2'
-import fs from 'fs'
-import { op_xor } from './lib/helpers'
+import CoinKey 							from 'coinkey'
+import scrypt 							from 'scrypt'
+import buffer 							from 'buffer'
+import binascii   					from 'binascii'
+import pbkdf2     					from 'pbkdf2'
+import fs         					from 'fs'
+import { op_xor } 					from './lib/helpers'
 import { randomPassphrase } from './lib/helpers'
-import async from 'async';
+import async 								from 'async'
 
 exports.crack = () => {
 	let interation = 0
@@ -14,7 +14,7 @@ exports.crack = () => {
 	let passphrase = ''
 	const target_pub = '1MkupVKiCik9iyfnLrJoZLx9RH4rkF3hnA'
 	console.log('Starting...')
-
+	const re = new RegExp("^(?=.*?[a-zA-Z]+.*?)(?=.*?[0-9].*)(.*)$")
 	async.during(
 		function(callback) {
 			return callback(null, target_pub !== key.publicAddress);
@@ -26,7 +26,7 @@ exports.crack = () => {
 
 			//timer start
 			const startTime = Date.now()
-
+			//compute s1 and s2 in parallel
 			async.parallel({
 				one: function(callback) {
 					scrypt.hash(new Buffer(passphrase + "\x01"), { "N": 262144, "r": 8, "p": 1 }, 32, new Buffer("a@b.c" + "\x01"), (err, result) => {
@@ -48,7 +48,7 @@ exports.crack = () => {
 				console.log('Public key: ', key.publicAddress)
 				console.log('Privatekey: ', key.privateWif)
 				console.log('Work  time:  ' + (Date.now() - startTime) + 'ms')
-				console.log('-----------------------------------------------')
+				console.log('----------------------------------------------------------------')
 				interation += 1
 				callback()
 			})
