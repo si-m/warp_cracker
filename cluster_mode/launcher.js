@@ -1,5 +1,5 @@
 import cluster from 'cluster'
-import Cracker from '../crack-warp'
+import Cracker from '../parallel'
 import os  from 'os'
 
 const numCPUs = os.cpus().length

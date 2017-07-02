@@ -28,10 +28,10 @@ exports.crack = () => {
 		const s2 = pbkdf2.pbkdf2Sync(new Buffer(passphrase + "\x02"), new Buffer("a@b.c"+"\x02"), 65536, 32, 'sha256')
 
 		//XOR
-		const merge = op_xor(s1,s2).toString('hex')
+		const merge = op_xor(s1,s2)
 
 		//bitcoin address gen
-		key = new CoinKey(new Buffer(merge, 'hex'))
+		key = new CoinKey(merge)
 		key.compressed = false
 
 		console.log('Private key: ',key.privateWif)

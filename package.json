@@ -21,7 +21,6 @@
   "scripts": {
     "start": "babel-node app.js --presets es2015,stage-2",
     "cluster": "babel-node ./cluster_mode/cluster.js --presets es2015,stage-2",
-    "parallel": "babel-node wparallel.js --presets es2015,stage-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SiM",

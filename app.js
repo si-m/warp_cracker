@@ -1,4 +1,4 @@
-import Cracker from './crack-warp'
+import Cracker from './parallel'
 
 Cracker.crack()
 
