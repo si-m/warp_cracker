@@ -6,6 +6,7 @@ import pbkdf2   					from 'pbkdf2'
 import fs 								from 'fs'
 import {op_xor}   				from './lib/helpers'
 import {randomPassphrase} from './lib/helpers'
+import parallel from 'async/parallel';
 
 exports.crack = () => {
 	let interation = 0
