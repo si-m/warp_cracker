@@ -1,8 +1,8 @@
 import cluster from 'cluster'
-import Cracker from './crack-warp'
+import Cracker from '../crack-warp'
 import os  from 'os'
 
-let numCPUs = os.cpus().length
+const numCPUs = os.cpus().length
 
 exports.launch = () => {
   console.log('Before the fork')
@@ -10,7 +10,7 @@ exports.launch = () => {
   if(cluster.isMaster){
     console.log('I am the master, launching workers!')
     
-    for (var index = 0; index < numCPUs; index++) {
+    for (let index = 0; index < numCPUs; index++) {
   		cluster.fork()
 		}
 	}
