@@ -1,18 +1,11 @@
-var password = new buffer.SlowBuffer("anyPassword".normalize('NFKC'));
-var salt = new buffer.SlowBuffer("someSalt".normalize('NFKC'));
+import scrypt from 'scrypt-js'
+import buffer from 'buffer'
 
-var N = 1024, r = 8, p = 1;
-var dkLen = 32;
+exports.scrypt = function(password, salt, cb) {
+	const _password = new buffer.SlowBuffer(password.normalize('NFKC'));
+	const _salt 		= new buffer.SlowBuffer(salt.normalize('NFKC'));
+	const N = 262144, r = 8, p = 1;
+	const dkLen = 32;
 
-scrypt(password, salt, N, r, p, dkLen, function(error, progress, key) {
-  if (error) {
-    console.log("Error: " + error);
-
-  } else if (key) {
-    console.log("Found: " + key);
-
-  } else {
-    // update UI with progress complete
-    updateInterface(progress);
-  }
-});
+	scrypt(_password, _salt, N, r, p, dkLen, cb)
+}
