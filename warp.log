@@ -1,0 +1,302 @@
+
+> cwarp-node@1.0.0 start /home/sim/Simspace/cwarp-node
+> babel-node warp.js --presets es2015,stage-2
+
+Starting...
+Try number:  0
+passphrase:  0dF5gUky
+Private key:  5JGWKLduAHfYmZ9WdMiYhENMv6T7NutNUd8jnuXAL5UVvNeA79Y
+Public key:  13CUkfG8gyF1KsS8LV3kP4AXtrS47zC1qj
+Work time: 636ms
+Starting...
+Try number:  1
+passphrase:  C6BpWs2p
+Private key:  5Jg4WU4wwfUvYDPqwmFjSyEV4QQrnNa9bLpaiUn47L1zCG7tyt2
+Public key:  19yCfR18XkZBY7msp5jjx6sjZfiYVjgV6r
+Work time: 634ms
+Starting...
+Try number:  2
+passphrase:  WvUqv7UP
+Private key:  5K1CYpCWZXnkFD6z3DfhJPrx9TfLafpM6nz5sZy97i8aoW9PhQt
+Public key:  1BCMuFi5y2Rk1ThTiRpp5wd8hYctuH3jTY
+Work time: 626ms
+Starting...
+Try number:  3
+passphrase:  cRBXONGb
+Private key:  5Jf7b3y9FVB9Vee4sFDMN4F36hLDm8BFqJHF865qfnt7MJGzSeH
+Public key:  18iPseLTazfedP6ZRbxokubhgBYxTfMvNp
+Work time: 628ms
+Starting...
+Try number:  4
+passphrase:  jH9bM4jd
+Private key:  5KCGdncMUbBoHJt5av6YSv8VyB2DeorH72DA2BZLWReDEtFNSYw
+Public key:  15AXe3ewomeepeEEVUvj3LmnfasVS2AEUm
+Work time: 637ms
+Starting...
+Try number:  5
+passphrase:  x9skdvlX
+
+> cwarp-node@1.0.0 start /home/sim/Simspace/cwarp-node
+> babel-node warp.js --presets es2015,stage-2
+
+Starting...
+Try number:  0
+passphrase:  OgPuRBkq
+Private key:  5JFzHmcnRH8uHddfp9LPAHfK5GsZe7ouhvSz5iuwtYmfgoJATGj
+Public key:  17vMnco3xQGFpMD9Y3YUKruhS11F8RKZ6y
+Work time: 624ms
+Starting...
+Try number:  1
+passphrase:  Z4Rr3Pw6
+Private key:  5Hsd9SdiTRiUDwn318wthwHKHPJw9mxzGPscaHfae2QRyQQ2rdR
+Public key:  142SFtGDt4RCYmj29sjLgGzt9WSEqqgRUH
+Work time: 634ms
+Starting...
+Try number:  2
+passphrase:  ErkCPn4u
+Private key:  5J2U3ce8dJRkhZkDwznsa5sd4ttUo7sKHfGSCPSsfZvjwbpapUK
+Public key:  12a1RwTLUKcs5hgZTFXVsThkw8SWrVrzmd
+Work time: 647ms
+Starting...
+Try number:  3
+passphrase:  ibGPgww4
+Private key:  5JZDeEoMaubwnHNK48kNb6pnh51cpc8sMktGwpRUpdDUgXwuuAK
+Public key:  1NMKCMz3zfN5sBMvC1TRBnPQfvbhdSveGN
+Work time: 629ms
+Starting...
+Try number:  4
+passphrase:  YpzAU6eT
+Private key:  5JWcLSkczc17e55St19bp7eabPSDozyuLjWCxdtGEApeZKUnwh7
+Public key:  15sK5ZzD2HhkHjbLkf2nCQcwrnTig6ETHY
+Work time: 626ms
+Starting...
+Try number:  5
+passphrase:  CxpOnQVF
+Private key:  5JYFkohZd3ZcmMWa51Kehj5smQmDzhmmfXFe7LBUm4fT4FGwzLP
+Public key:  14Safm2QCq5Fbecpp9iSrYWJiknC4cwob3
+Work time: 632ms
+Starting...
+Try number:  6
+passphrase:  Xvu3FoqS
+Private key:  5Jgn9mBqvmp9utn7J5RqE1bN47dCJtuzGjUAWRhiw2hHFh9qhhu
+Public key:  1Cfr5wPVof2kFCGuvhjtozDGSBDMy9sE49
+Work time: 627ms
+Starting...
+Try number:  7
+passphrase:  t0mm09Yf
+Private key:  5JHQjHbkz98Qh73CEy5EnJMGaXK4mrec6fL5iSzDzkrxyMezT2G
+Public key:  1BQwbaCAmobBLx5V4FjyaAVeSxtybuuUmd
+Work time: 623ms
+Starting...
+Try number:  8
+passphrase:  1BPWzG2D
+Private key:  5J2yzJB5xYka7oXDSX4bjwNi6LyJm3U8eF2Uqu2YDDddxw9YrWW
+Public key:  19LWmstGMEtaHqURMswJSNGQcrphD5181S
+Work time: 632ms
+Starting...
+Try number:  9
+passphrase:  nwRlxwUP
+Private key:  5JNhpWBBTwHceaWGHDegGRfuWTtu2eafMt6cPSLKeiqzKFndGrV
+Public key:  1Gj9s1xvwWddsJu74hYzs2qtywfgJj58eC
+Work time: 625ms
+Starting...
+Try number:  10
+passphrase:  q8lkpdso
+Private key:  5HseMjHASdrvZAbtvX4AusToKKStqepHfprApFAnvuaqJeURz44
+Public key:  17Le2xUWK653MY11E1KA62jZmYCVkEJ3s2
+Work time: 625ms
+Starting...
+Try number:  11
+passphrase:  lYPal2tI
+Private key:  5KXqmNnsKkFKoQqMvRTGeA1GphGHNk3mMaQYDR2kUUPXJYH9suk
+Public key:  1CmdMmpZVSa7aTbVPcVSSStpzu39QUQWu7
+Work time: 624ms
+Starting...
+Try number:  12
+passphrase:  eL0x5Tb4
+Private key:  5J2fxeG1KnXyNQrrxtYo5UZdujkitoFFps44WwLJj8pdDCXtxcW
+Public key:  1M9qjwSBxPSHd1xF9uRv7m9hHVQAepvc5Q
+Work time: 653ms
+Starting...
+Try number:  13
+passphrase:  drxmCxa9
+Private key:  5JxAqfBJnHpPLF3QMF59ZS9fCM9J8p3ijoBsMseCNgGQhccC9sh
+Public key:  1F5KRBBg69S4cSFkn6qvxgmT5KwbNXAjPK
+Work time: 645ms
+Starting...
+Try number:  14
+passphrase:  OF3e77YG
+Private key:  5JoSgLbL5bXhQUmuq66gkTDF9CXy23q5uM9XessTHByytaiHGQK
+Public key:  1De8wYq97hGfRVHTPnph4vDmRdkL66kCqK
+Work time: 629ms
+Starting...
+Try number:  15
+passphrase:  zB3pnd0e
+Private key:  5JaVChUgGUemepXeibtqQirwZPHqBpyaf2eEuq9Y7DMkw2zdbB1
+Public key:  1N1jFTnwPswJBsV2GHkU1SVEPjHG7PYHsW
+Work time: 655ms
+Starting...
+Try number:  16
+passphrase:  WpNszpGh
+Private key:  5KS5bdTCxBSQ7jLMkafq3MHY16GjLAn6MVpoWBXBibQQKuT6tuA
+Public key:  112vkRL6gcK7qKQhzF3FJ4MWAxhYbZ11q4
+Work time: 640ms
+Starting...
+Try number:  17
+passphrase:  HfzOpols
+Private key:  5KP22UckeCJVQggWLL5VPmrBmeRtDm59AmEJsjkcNWxrpkgb1pU
+Public key:  13T9bcLcK5QgHDstSqt2jbW4zYkBPJLa8X
+Work time: 623ms
+Starting...
+Try number:  18
+passphrase:  EamCL1Gt
+Private key:  5JEA65e6iBQ7wmW6raqW5kNGkUJDPQ6JjLGTWTeQnJzsUCfY3xa
+Public key:  1PQN2EfN59uWvuFLUPThuzFZWkEqH8VMWy
+Work time: 633ms
+Starting...
+Try number:  19
+passphrase:  AVtS0nap
+Private key:  5JPh16X7H2iXcA6TRCB5Eb8rrLuSQPkNUNkoCcijSMtKum7Tn7p
+Public key:  16o2kbcS7ZMHtaVrRL1D5Z9NJSpwNuur68
+Work time: 642ms
+Starting...
+Try number:  20
+passphrase:  lcNVGyaX
+Private key:  5K7MD8e7nefXrcdtD5c9wVhWqT2PewoX5Ei4urjA1TCUT7FqqtK
+Public key:  1BcHSczutt9Z52YRU6KUn6QiMiDGtFTHPA
+Work time: 627ms
+Starting...
+Try number:  21
+passphrase:  FcAgM4Ro
+Private key:  5J1RxNrThPmSbbvMx2qWfpaoXxeuYWdMWZ7ZDDcHyaegE13Aemt
+Public key:  17zLBiVpFVQshNQfUsaDMbY6jkYgqQvtMn
+Work time: 640ms
+Starting...
+Try number:  22
+passphrase:  wCS2IL2n
+Private key:  5KVghkHP7MWVuARj8pwf4uRr1bocuEGMMZ58B2rBpJRPnBFzmvo
+Public key:  1BbQCkTs8qQU9veGW2CUcMdg3oiJ9F6WkS
+Work time: 632ms
+Starting...
+Try number:  23
+passphrase:  ueWXwY0r
+Private key:  5JHqA3eJJePzKrtRYFwtz72fZhaUV6Esqd1QB5fksgHQDgBm1ZV
+Public key:  1PuK58jNA9f1daP2GgVPBqneHAHnAUEaW7
+Work time: 656ms
+Starting...
+Try number:  24
+passphrase:  7mO2WgHb
+Private key:  5KB9MKoMDadBwBea6weFxXHLdjHk7KH2XJP5E8RS8Nv689Wfrp8
+Public key:  1He3btZsRkSgfrzqCYuc1KKxnbY1exoNvZ
+Work time: 683ms
+Starting...
+Try number:  25
+passphrase:  cpAjlZSu
+Private key:  5KMwSwGKhAXSi55HmttJs22FDfo4ivoxWPG3PS7gZ7crFcQzMuE
+Public key:  1Q8LJ4yDheZ42xn3KPDrjM1UaCkCd3C3Am
+Work time: 645ms
+Starting...
+Try number:  26
+passphrase:  pRdmruwu
+Private key:  5KYHDu8r7rfZcBdcUvDYTu3xhvqR3EgDSgSpeqGH3PhzMJd6PYG
+Public key:  1E1fEC86pmQMrokCZcUmYTd2BD6V3bq8W
+Work time: 641ms
+Starting...
+Try number:  27
+passphrase:  oNQbO74e
+Private key:  5KMHBsW3rwjs2jZDUtQKPXkLV3ax5ic469iPuTAR72yCUQ9Fy8H
+Public key:  1NkVHJ7X6rzMGsESQzakczt5opk21kUSE9
+Work time: 713ms
+Starting...
+Try number:  28
+passphrase:  TnWab7cz
+Private key:  5KEkVxHVmhNY6J4EB2oqezv3znP4zmR2amZykrpnofo74kAaqzy
+Public key:  1JoixoY1Maxeq4zmCCcjPE37FWKsR6HrmH
+Work time: 659ms
+Starting...
+Try number:  29
+passphrase:  EaDnNxRd
+Private key:  5KWdNnL3NDrNnN4Av8Ax1v6f2WULpRjGGJB5emuWEu1pWt5XKwu
+Public key:  1L83oWzQ7CDrFrEsu7CNQLvZJMdpyWueJh
+Work time: 718ms
+Starting...
+Try number:  30
+passphrase:  1MkDB3eC
+Private key:  5JmtTN7nddHLoKPFhTVjp9ZRCJcenHa43vbavaa9XUEiTwsQ7nq
+Public key:  1QDHiRbXofFS3pPY15bdgDjdhBg9UV27xz
+Work time: 624ms
+Starting...
+Try number:  31
+passphrase:  JqCaJoiC
+Private key:  5KXxGEk8kyHAEzctBiyw9EhfXSuTB24iTEFEVTJjJQegPa9xaPA
+Public key:  12AMRoTGkXiGDBa6Pn8dqKEy9ZULMzesSE
+Work time: 619ms
+Starting...
+Try number:  32
+passphrase:  txBdgZNQ
+Private key:  5JyoUrGHVejW6MW3L7Y3ZMY4UenKs4i84tT79Sm9uKpp7iwVYgQ
+Public key:  1CyzPLsXuRFsHApAFRcJ7auz5WJ5aicBzt
+Work time: 618ms
+Starting...
+Try number:  33
+passphrase:  UnG7c5kB
+Private key:  5K6iisSFE6vcwTDgKt2kiF8tEDSrE7V87vCxm7NZcxZq4y7BdgL
+Public key:  1P65fxBYV6ui7fH1Zfx2hdKMLhhWVNMwh6
+Work time: 620ms
+Starting...
+Try number:  34
+passphrase:  3BBGhWVs
+Private key:  5JQ2tmaeHW2xqngZyakyRVMYoBF6ChB3RMDW3x5jk9LDEzG47ri
+Public key:  1JsY7R1unLccgi9KbbdWtx62wt3kFQd5Rr
+Work time: 621ms
+Starting...
+Try number:  35
+passphrase:  zw0Fpnzz
+Private key:  5KhtLV7TmVuRFLhN1cjBbkBCdQDF8kcPKkpwXeu98T2rkonJCUC
+Public key:  1Bu4oF5dQYK7uXZAQkFEmEVB866eM4up8t
+Work time: 756ms
+Starting...
+Try number:  36
+passphrase:  9KnAh6lB
+Private key:  5Jyr6Lxp37AaAjYA8yttf35ocSE4p91CgaT7Xipi8Ar8Fy6pYoK
+Public key:  19Y2VBK4NLvNJBB4brTqyWcShPCoQorQgf
+Work time: 777ms
+Starting...
+Try number:  37
+passphrase:  lcGWMlFl
+Private key:  5HwF5NqsK5ee2PrnQnGENxP74SBwqKg7M6iLH41La4jqzYaNU3r
+Public key:  1CkvbwxfAxSa5w9ERCznFBTxmjTKohToTz
+Work time: 721ms
+Starting...
+Try number:  38
+passphrase:  mWq39QZx
+Private key:  5J9mEBoZfouufdJ3Ghy8gW8XygULwCnyKjeoKbwb41kDTZFBeCs
+Public key:  1f6yFoUV5QwDAzc5sZCq7K9wquDYxnDxu
+Work time: 652ms
+Starting...
+Try number:  39
+passphrase:  aZ6WpEHH
+Private key:  5J6XNmbDMdgna9evvT7rEEFMnMo8h1KY7y19Q6njhTtDSdraLFp
+Public key:  1HNJ314ApzfuGXiv2ESYyiL4ey7it12JcZ
+Work time: 642ms
+Starting...
+Try number:  40
+passphrase:  3QVyod8j
+Private key:  5HqJCnvZJyRRhQ1y33zFhJXiwKFKSYZohQwcQ7DWs9naS6aVwTP
+Public key:  19A6fAETpK1NJYcBU7FQHqMwErzRAABNBK
+Work time: 661ms
+Starting...
+Try number:  41
+passphrase:  4kMApsMO
+Private key:  5JaoFNQRw29qpL6zGR8JHfgPLB9QLRuC6cjPQvxK8n1TBwGVung
+Public key:  1HJaEa2skyPmnccqzTXtXfKU1EpqgDtLD8
+Work time: 671ms
+Starting...
+Try number:  42
+passphrase:  CCNa7SNh
+Private key:  5JmFRrqHLRoboaPSUikMJKmihnzxpgvNFRV3a1yGJrpaRkFW1Rw
+Public key:  1JoxgZzMnCKWYhWeHPtFaLBcHCyU2Q8TBb
+Work time: 653ms
+Starting...
+Try number:  43
+passphrase:  gJdpcRjV

@@ -3,6 +3,7 @@ import scrypt 	from 'scrypt'
 import buffer 	from 'buffer'
 import binascii from 'binascii'
 import pbkdf2   from 'pbkdf2'
+import fs 			from 'fs'
 
 function op_xor(a, b) {
   if (!Buffer.isBuffer(a)) a = new Buffer(a)
@@ -30,9 +31,10 @@ const randomPassphrase = () => {
 
 let interation = 0
 let key = {publicAddress: 0}
+let passphrase = ''
 const target_pub = '1MkupVKiCik9iyfnLrJoZLx9RH4rkF3hnA'
-while(key.publicAddress != target_pub){
-	let passphrase = randomPassphrase()
+while(interation !== 10){
+	passphrase = randomPassphrase()
 	console.log('Starting...')
 	console.log('Try number: ', interation)
 	console.log('passphrase: ', passphrase.toString('hex'))
@@ -48,5 +50,16 @@ while(key.publicAddress != target_pub){
 	interation += 1
 }
 
+console.log("SUCCESS!")
+console.log('Passphrase: ', passphrase.toString('hex'))
+console.log('Private key: ',key.privateWif)
 
+const success = 'Passphrase: ' + passphrase.toString('hex') + '\n'+ 'Private key: ' + key.privateWif + '\n' +'Public key: ' + key.publicAddress
+fs.writeFile("success.txt", success, function(err) {
+    if(err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+}); 
 
