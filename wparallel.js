@@ -9,11 +9,11 @@ import {randomPassphrase} from './lib/helpers'
 import async from 'async';
 
 
-	let interation = 0
-	let key = {publicAddress: 0}
-	let passphrase = ''
-	const target_pub = '1MkupVKiCik9iyfnLrJoZLx9RH4rkF3hnA'
-	console.log('Starting...')
+let interation = 0
+let key = {publicAddress: 0}
+let passphrase = ''
+const target_pub = '1MkupVKiCik9iyfnLrJoZLx9RH4rkF3hnA'
+console.log('Starting...')
 
 async.during(
     function (callback) {
