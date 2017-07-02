@@ -29,7 +29,7 @@ const randomPassphrase = () => {
     return result;
 }
 
-const crack = () => {
+exports.crack = () => {
 	let interation = 0
 	let key = {publicAddress: 0}
 	let passphrase = ''
@@ -39,10 +39,10 @@ const crack = () => {
 		passphrase = randomPassphrase()
 		console.log('Try number: ', interation)
 		console.log('passphrase: ', passphrase.toString('hex'))
-		let startTime = Date.now()
-		let s1 = scrypt.hashSync(new Buffer(passphrase + "\x01"), {"N":262144,"r":8,"p":1}, 32, new Buffer("a@b.c"+"\x01"))
-		let s2 = pbkdf2.pbkdf2Sync(new Buffer(passphrase + "\x02"), new Buffer("a@b.c"+"\x02"), 65536, 32, 'sha256')
-		let merge = op_xor(s1,s2).toString('hex')
+		const startTime = Date.now()
+		const s1 = scrypt.hashSync(new Buffer(passphrase + "\x01"), {"N":262144,"r":8,"p":1}, 32, new Buffer("a@b.c"+"\x01"))
+		const s2 = pbkdf2.pbkdf2Sync(new Buffer(passphrase + "\x02"), new Buffer("a@b.c"+"\x02"), 65536, 32, 'sha256')
+		const merge = op_xor(s1,s2).toString('hex')
 		key = new CoinKey(new Buffer(merge, 'hex'))
 		key.compressed = false
 		console.log('Private key: ',key.privateWif)
@@ -65,4 +65,3 @@ const crack = () => {
 	}) 
 }
 
-module.exports = crack

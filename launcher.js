@@ -1,5 +1,5 @@
 import cluster from 'cluster'
-import crack from './crack-warp'
+import Cracker from './crack-warp'
 import os  from 'os'
 
 let numCPUs = os.cpus().length
@@ -15,7 +15,7 @@ exports.launch = () => {
 		}
 	}
   else{
-  	crack()
+  	Cracker.crack()
     console.log('I am a worker!')
   }
 

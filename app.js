@@ -1,5 +1,5 @@
-import crack from './crack-warp'
+import Cracker from './crack-warp'
 
-crack()
+Cracker.crack()
 
 
