@@ -22,7 +22,7 @@ exports.crack = () => {
 		function(callback) {
 			passphrase = randomPassphrase()
 			console.log('Try number: ', interation)
-			console.log('passphrase: ', passphrase.toString('hex'))
+			console.log('Passphrase: ', passphrase.toString('hex'))
 
 			//timer start
 			const startTime = Date.now()
@@ -40,16 +40,15 @@ exports.crack = () => {
 
 				}
 			}, function(err, results) {
-				//XOR
-				const merge = op_xor(results.one, results.two)
-
-				//bitcoin address gen
-				key = new CoinKey(merge)
+				
+				//xor s1 and s2 and gen bitcoin address 
+				key = new CoinKey(op_xor(results.one, results.two))
 				key.compressed = false
 
-				console.log('Private key: ', key.privateWif)
 				console.log('Public key: ', key.publicAddress)
-				console.log('Work time: ' + (Date.now() - startTime) + 'ms')
+				console.log('Privatekey: ', key.privateWif)
+				console.log('Work  time:  ' + (Date.now() - startTime) + 'ms')
+				console.log('-----------------------------------------------')
 				interation += 1
 				callback()
 			})
