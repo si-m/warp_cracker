@@ -34,9 +34,9 @@ const crack = () => {
 	let key = {publicAddress: 0}
 	let passphrase = ''
 	const target_pub = '1MkupVKiCik9iyfnLrJoZLx9RH4rkF3hnA'
+	console.log('Starting...')
 	while(target_pub !== key.publicAddress){
 		passphrase = randomPassphrase()
-		console.log('Starting...')
 		console.log('Try number: ', interation)
 		console.log('passphrase: ', passphrase.toString('hex'))
 		let startTime = Date.now()
