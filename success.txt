@@ -1,3 +1,0 @@
-Passphrase: 
-Private key: undefined
-Public key: 0
