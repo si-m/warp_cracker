@@ -24,6 +24,7 @@ Warpwallet Brute Force app in nodejs
 * One process: 2 keys/second
 * I only need to run this in 100000000 computers
 * Owner: SiM
+* If you win tips plz: 14bnwKYukMtPXxT4ts2oNXzB6RnQ1WCsXU
 
 ### ToDo ###
 * build a better approach
